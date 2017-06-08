@@ -105,7 +105,7 @@ me.run();
 me.crawl();
 me.see_distance();
 
-function person (name, distance_travelled){
+function person (name){
     this.name = name;
     this.distance_travelled = 0;
     this.say_name = function(){
